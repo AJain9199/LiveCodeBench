@@ -657,6 +657,13 @@ LanguageModelList: list[LanguageModel] = [
         link="https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
     ),
     LanguageModel(
+        "Qwen/Qwen2.5-3B-Instruct",
+        "Qwen2.5-Ins-3B",
+        LMStyle.CodeQwenInstruct,
+        datetime(2023, 8, 30),
+        link="https://huggingface.co/Qwen/Qwen2.5-3B-Instruct",
+    ),
+    LanguageModel(
         "Qwen/Qwen2.5-32B-Instruct",
         "Qwen2.5-Ins-32B",
         LMStyle.CodeQwenInstruct,
@@ -677,6 +684,13 @@ LanguageModelList: list[LanguageModel] = [
         LMStyle.CodeQwenInstruct,
         datetime(2024, 6, 30),
         link="https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
+    ),
+    LanguageModel(
+        "Qwen/Qwen2.5-Coder-3B-Instruct",
+        "Qwen2.5-Coder-Ins-3B",
+        LMStyle.CodeQwenInstruct,
+        datetime(2024, 6, 30),
+        link="https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct",
     ),
     LanguageModel(
         "Qwen/Qwen2.5-Coder-32B-Instruct",
