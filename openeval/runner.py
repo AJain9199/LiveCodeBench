@@ -4,7 +4,7 @@ from collections import defaultdict
 from concurrent.futures import ProcessPoolExecutor, as_completed
 
 import numpy as np
-from test_utils import *
+from .test_utils import run_test
 from tqdm import tqdm
 
 def _temp_run(inputs, outputs, fn_name, generation, debug, result, timeout, mem_limit):

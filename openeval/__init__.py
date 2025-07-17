@@ -1,1 +1,1 @@
-from runner import check_correctness
+from .runner import check_correctness
